@@ -1,0 +1,39 @@
+/* Interview */
+
+ /*   Why do you want to be a designer? 
+
+    Well, when I was a young boy my Mother took me into the city 
+    and said, "Son, when you grow up you must be the saviour of the incoherent, 
+    the ugly and the damned." 
+
+    What worries you about being a designer? 
+    That my mom was wrong.
+
+    What excites you about it? 
+    I am ADHD, if I am not excited you're probably in trouble.
+
+    What aspect of design do you gravitate towards the most? 
+    Meme culture.
+
+    What role or responsibility does a designer play in our society? 
+    To accurately and effectively communicate ideas and information.
+
+    What is a website? 
+    A series of letters, numbers and images thrust through a series 
+    of tubes and viewed from your hand. */
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: purple;
+	color: grey;
+	font-family: serif;
+	line-height: 2;
+    font-size: 2em;
+}
+	
+}
