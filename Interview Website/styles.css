@@ -1,0 +1,63 @@
+/* Interview */
+* {
+	box-sizing: border-box;
+    }
+
+body {
+	background-color: indigo;
+    }
+/*Title*/
+h1 {
+    font-color: yellow;
+    font-size: 4em;
+    font-family: 'Berkshire Swash', cursive;
+    }
+/*Magic subtitle*/
+h2 {
+    font-size:2em;
+    font-family: 'Petit Formal Script', cursive;
+        transition: color 20s;
+        color:yellow;
+    }
+/*Questions*/
+h3 {
+    color:lightblue;
+    font-family:helvetica;
+    margin-left: 1.5em;
+    font-size:2em;
+    }
+
+/*Question&Answer groups.*/
+.QA {
+    border-radius: 0 10em 10em 0;
+    margin:4em;
+    }
+/*Boxes around answers, properties...etc*/
+.Answers {
+    text-align: right;
+    border: 5px solid;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin: .5em 0;
+    font-family: 'Coming Soon', cursive;
+    font-size:1.5em;
+    background-color: beige;
+    color:blueviolet;
+    }
+/*Properties for the title box*/
+.title {
+    text-align: center;
+    border: 10px solid;
+    border-radius: .5em;
+    padding: 2em 2em;
+    margin: 1em 0;
+    color: orange;
+    background-color: black;
+    }
+/*Properties for the bottom 'footer' text*/
+.footer {
+    text-align:center;
+    color: lightblue;
+}
+
+}
