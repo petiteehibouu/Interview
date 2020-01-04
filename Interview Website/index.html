@@ -5,8 +5,9 @@
 
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura|Berkshire+Swash|Coming+Soon|Handlee|Petit+Formal+Script|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-
-
+    <script type="text/javascript" src="script.js">
+    </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -14,57 +15,52 @@
     <main>
         <div class="title">
             <h1>A Magical Interview With Myself</h1>
-            <h2>Wow. What magic... Incredible.</h2>
+            <h2 class="fade-in">Wow What magic...Incredible.</h2>
         </div>
 
-        <div class="QA">
+        <div class="QA" onclick="showhide($(this).children().last());">
             <h3>Why do you want to be a Designer?—</h3>
-                <div class="Answers">
-                    Well. When I was a young boy my Mother took me into the city to see a Tech Convention.
-                    <br>She said, "Son, when you grow up will you be the saviour of the broken, incoherent, and the damned?" 
-                    <br>"Will you design it? Website and the graphics....with the plans clients have made?"
+                <div id="ans1" class="answerClosed">
+                    <br> Well. When I was a young boy my Mother took me into the city to see a Tech Convention. She said, "Son, when you grow up will you be the saviour of the broken, incoherent, and the damned?" 
+                    <br>She said, "Will you design it? Website and the graphics....with the plans clients have made?"
                 </div>
         </div>
 
-        <div class="QA">
+       <div class="QA" onclick="showhide($(this).children().last());">
           <h3>What worries you about being a designer?—</h3>
-                <div class="Answers">
-                    That my Mom was actually wrong and I will not be the saviour.
+                <div id="ans2" class="answerClosed">
+                    <br> That my Mom was actually wrong and I will not be the saviour.
                 </div>
         </div>
 
-        <div class="QA">
+       <div class="QA" onclick="showhide($(this).children().last());">
             <h3>What excites you about it?—</h3>
-                <div class="Answers">
-                    I am an ADHD super-brain, if I am not excited you're probably in trouble. 
+                <div id="ans3" class="answerClosed">
+                    <br> I am an ADHD super-brain, if I am not excited you're probably in trouble. 
                     <br> So, basically everything.
                 </div>
         </div>
 
-        <div class="QA">
+       <div class="QA" onclick="showhide($(this).children().last());">
             <h3>What aspect of design do you gravitate towards the most?—</h3>
-                <div class="Answers">
-                    Absolutely, without a doubt it has to be meme culture.
+                <div  id="ans4" class="answerClosed">
+                    <br> Absolutely, without a doubt it has to be meme culture.
                 </div>
         </div>
 
-        <div class="QA">    
+       <div class="QA" onclick="showhide($(this).children().last());">    
             <h3>What role or responsibility does a designer play in our society?—</h3>
-                <div class="Answers">
-                    To accurately and effectively communicate ideas and information.
+                <div id="ans5" class="answerClosed"> 
+                    <br> To accurately and effectively communicate ideas and information.
                 </div>
         </div>
 
-        <div class="QA">
+       <div class="QA" onclick="showhide($(this).children().last());">
             <h3>What is a website?— </h3>
-                <div class="Answers">
-                    A series of letters, numbers, and images thrust through a series of tubes and most commonly viewed from your hand.
+                <div id="ans6" class="answerClosed">
+                    <br> A series of letters, numbers, and images thrust through a series of tubes and most commonly viewed from your hand.
                 </div>
-        </div>
-
-            
-
-    </main>
+        </div> </main>
 
     <footer>
         <div class="footer">
